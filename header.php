@@ -2,7 +2,6 @@
 <html>
 <head>
 	<?php wp_head(); ?>
-	<title>mysite</title>
 
 </head>
 <body>

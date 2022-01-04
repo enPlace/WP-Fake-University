@@ -15,4 +15,9 @@ function FU_scripts() {
 	));
   }
 add_action( 'wp_enqueue_scripts', 'FU_scripts' );
+
+function FU_features() {
+	add_theme_support('title-tag');
+}
+add_action('after_setup_theme', 'FU_features')
  ?>
